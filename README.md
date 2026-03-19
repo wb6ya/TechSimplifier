@@ -49,11 +49,3 @@
    npm run dev
    ```
    افتح `http://localhost:3000` في متصفحك واستمتع!
-
-## 📦 النشر على Vercel (Deployment)
-المشروع مبني بأسس خالية من أي تعارضات Typescript، وهو مهيأ تمامًا للنشر المباشر والمستقر على Vercel:
-1. ارفع المشروع المكتمل على مستودع GitHub الخاص بك كـ Public أو Private.
-2. قم بتسجيل الدخول إلى [Vercel](https://vercel.com/) واختر إضافة مشروع جديد (Import Project).
-3. اختر مستودع **Tech Simplifier**.
-4. **خطوة مصيرية:** قبل الضغط على Deploy، افتح قسم الإعدادات (Environment Variables) داخل Vercel وأضف المتغير `GEMINI_API_KEY` وقيمته.
-5. اضغط على Deploy وانتظر دقيقة لمشاهدة مشروعك لايف للعالم!
